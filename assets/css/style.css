@@ -28,7 +28,6 @@
 
 header section {
     text-align: center;
-    margin: auto;
 }
 
 header section p {
@@ -49,7 +48,6 @@ header section h1 {
 
 header section img {
     width: 720px;
-
 }
 
 header section h2 {
@@ -58,4 +56,54 @@ header section h2 {
     font-style: normal;
     font-size: 160px;
     padding: 50px 0;
+}
+
+/* ###############################################
+                MAIN
+############################################### */
+
+main section.dark {
+    background-image: url("../img/portfolio2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 826px;
+    padding: 200px 0 0 110px;
+}
+
+main section p {
+    color: #9E9E9E;
+    font-family: 'work';
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.number {
+    font-size: 50px;
+    color: rgba(158, 158, 158, 0.6);
+    font-size: 165px;
+    font-family: 'fjalla';
+    font-style: normal;
+    text-align: right;
+    padding-top: 150px;
+    padding-right: 100px;
+}
+
+main section h1 {
+    color: #fff;
+    font-family: 'didact';
+    font-size: 112px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+main section a {
+    color: #fff;
+    font-family: 'fjalla';
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 50px;
 }
